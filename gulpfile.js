@@ -48,5 +48,7 @@ gulp.task('test', function (done) {
 });
 
 gulp.task('test:makdoc', function (done) {
-    throw new Error('need to implement unittests');
+    var v = require('./test/makdoc-asciidoc.js');
+    console.log(v);
+    done();
 });
